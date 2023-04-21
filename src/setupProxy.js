@@ -4,8 +4,11 @@ module.exports = function (app) {
   app.use(
     "/api",
     createProxyMiddleware({
-      target: "http://localhost:4000/",
+      target: "https://ecommerce-j3kd.onrender.com",
       changeOrigin: true,
     })
   );
 };
+
+
+//Admin => shashankkumar.alld57@gmail.com   pswrd => shashank2781
