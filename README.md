@@ -1,4 +1,4 @@
-# For Backend Folloe The Link Below:
+# For Backend Follow The Link Below:
 
 Link: https://github.com/shashankkumar027/Ecommerce-mern-Backend
 
