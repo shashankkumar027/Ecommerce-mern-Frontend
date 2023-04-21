@@ -11,4 +11,3 @@ module.exports = function (app) {
 };
 
 
-//Admin => shashankkumar.alld57@gmail.com   pswrd => shashank2781

@@ -5,6 +5,10 @@ import {
 } from "../constants/cartConstant";
 import axios from "axios";
 
+
+// Backend URL for fetching data
+const base_url = "https://ecommerce-j3kd.onrender.com";
+
 // Add To Cart
 export const addItemsToCart = (id, quantity) => async (dispatch, getState) => {
   const { data } = await axios.get(`/api/v1/product/${id}`);

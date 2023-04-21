@@ -39,6 +39,11 @@ import {
 
 import axios from "axios";
 
+// Backend URL for fetching data
+
+const base_url = "https://ecommerce-j3kd.onrender.com";
+
+
 // Login
 export const login = (email, password) => async (dispatch) => {
   try {
